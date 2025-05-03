@@ -2,5 +2,7 @@
   "plugins": [
     "prettier-plugin-tailwindcss"
   ],
-  "tailwindStylesheet": "./assets/css/main.css"
+  "tailwindStylesheet": "./assets/css/main.css",
+  "singleQuote": true,
+  "semi": false
 }
