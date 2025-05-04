@@ -32,4 +32,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  icon: {
+    mode: 'svg',
+  },
 })
