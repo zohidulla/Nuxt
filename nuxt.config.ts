@@ -34,5 +34,16 @@ export default defineNuxtConfig({
   },
   icon: {
     mode: 'svg',
+    aliases: {
+      code: 'heroicons:code-bracket-square-solid',
+      cog: 'heroicons:cog-6-tooth-solid',
+      fire: 'heroicons:fire-solid',
+      puzzle: 'heroicons:puzzle-piece-solid',
+      plane: 'heroicons:paper-airplane-solid',
+      bars: 'heroicons:bars-3-solid',
+      xMark: 'heroicons:x-mark-solid',
+      globe: 'heroicons:globe-alt-solid',
+      bracket: 'heroicons:code-bracket-solid',
+    },
   },
 })
