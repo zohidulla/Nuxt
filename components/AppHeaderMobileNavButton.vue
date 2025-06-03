@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <a href="#nav" class="-mr-1.5 rounded-md p-2 hover:bg-gray-100 dark:hover:bg-gray-700">
+  <NuxtLink class="-mr-1.5 rounded-md p-2 hover:bg-gray-100 dark:hover:bg-gray-700">
     <Icon name="bars" class="size-6 dark:text-white" />
-  </a>
+  </NuxtLink>
 </template>
