@@ -11,6 +11,10 @@
         tutorials.
       </p>
     </div>
+    <AppPageHeader
+      heading="Playlists"
+      subheading="Learn how to make VSCode work for you with our comprehensive guides and tutorials."
+    />
     <div
       class="container grid grid-cols-1 gap-y-4 sm:gap-8 md:grid-cols-3 md:gap-x-6 xl:grid-cols-4 xl:gap-x-8"
     >
@@ -336,9 +340,11 @@
                 </li>
               </ul>
             </footer>
-          </article>Add commentMore actions
+          </article>
         </a>
       </div>
+      <PlaylistFilters />
+      <PlaylistGrid />
     </div>
   </section>
 </template>
