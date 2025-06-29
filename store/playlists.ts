@@ -1,4 +1,4 @@
-interface Playlist {
+export interface Playlist {
   id: number
   title: string
   description: string
@@ -12,7 +12,7 @@ export const usePlaylistsStore = defineStore('playlists', () => {
       id: 1,
       title: 'Settings',
       description:
-      'Master VS Code settings to create your perfect coding environment.',
+        'Master VS Code settings to create your perfect coding environment.',
       tagIds: [14, 1, 3],
       lessonIds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
     },
@@ -20,7 +20,7 @@ export const usePlaylistsStore = defineStore('playlists', () => {
       id: 2,
       title: 'Keyboard Shortcuts',
       description:
-      'Boost your productivity with essential VS Code shortcuts and keybindings.',
+        'Boost your productivity with essential VS Code shortcuts and keybindings.',
       tagIds: [15, 13, 3],
       lessonIds: [12, 13, 14, 15],
     },
@@ -28,7 +28,7 @@ export const usePlaylistsStore = defineStore('playlists', () => {
       id: 3,
       title: 'Extensions',
       description:
-      'Discover must-have VS Code extensions for modern development.',
+        'Discover must-have VS Code extensions for modern development.',
       tagIds: [16, 3, 1],
       lessonIds: [17, 18, 19, 20, 21, 22, 23],
     },
@@ -36,7 +36,7 @@ export const usePlaylistsStore = defineStore('playlists', () => {
       id: 4,
       title: 'Git Mastery',
       description:
-      'Learn advanced Git operations and collaboration directly in VS Code.',
+        'Learn advanced Git operations and collaboration directly in VS Code.',
       tagIds: [5, 6, 4],
       lessonIds: [54],
     },
@@ -44,7 +44,7 @@ export const usePlaylistsStore = defineStore('playlists', () => {
       id: 5,
       title: 'Debugging Techniques',
       description:
-      'Master debugging tools and techniques in VS Code for various languages.',
+        'Master debugging tools and techniques in VS Code for various languages.',
       tagIds: [7, 3, 1],
       lessonIds: [55],
     },

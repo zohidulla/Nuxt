@@ -7,13 +7,9 @@ const lists = [
     items: playlists.slice(4, 7).map((playlist) => {
       const lesson = getLessonById(playlist.lessonIds[0])
 
-      if (!lesson) {
-        throw createError({ statusCode: 404, message: 'Lesson not found' })
-      }
-
       return {
         label: playlist.title,
-        link: `/playlists/${slugify(playlist.title)}/lessons/${slugify(lesson.title)}`,
+        link: getPlaylistLink(playlist, lesson),
       }
     }),
   },
@@ -22,13 +18,9 @@ const lists = [
     items: playlists.slice(0, 3).map((playlist) => {
       const lesson = getLessonById(playlist.lessonIds[0])
 
-      if (!lesson) {
-        throw createError({ statusCode: 404, message: 'Lesson not found' })
-      }
-
       return {
         label: playlist.title,
-        link: `/playlists/${slugify(playlist.title)}/lessons/${slugify(lesson.title)}`,
+        link: getPlaylistLink(playlist, lesson),
       }
     }),
   },
