@@ -6,7 +6,7 @@
       </li>
       <li>
         <AppHeaderNavLink to="/login">Log In</AppHeaderNavLink>
-      </li>Add commentMore actions
+      </li>
       <li>
         <AppButton to="/register">Sign Up</AppButton>
       </li>

@@ -2,6 +2,7 @@
 const props = defineProps<{ playlist: Playlist }>()
 
 const tags = useTagsStore().getTagsById(props.playlist.tagIds)
+const lesson = useLessonsStore().getLessonById(props.playlist.lessonIds[0])
 </script>
 
 <template>
@@ -33,3 +34,4 @@ const tags = useTagsStore().getTagsById(props.playlist.tagIds)
     </article>
   </NuxtLink>
 </template>
+````

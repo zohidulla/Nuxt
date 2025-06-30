@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { playlists } = usePlaylistsStore()
 const { getLessonById } = useLessonsStore()
+
 const lists = [
   {
     heading: 'Popular Playlists',

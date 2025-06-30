@@ -2,10 +2,10 @@
   <div class="container">
     <form class="flex justify-center gap-x-2">
       <AppFormField
-        id="email"
-        class="w-60 sm:w-96"
         type="email"
         placeholder="Your Email"
+        id="email"
+        class="w-60 sm:w-96"
       />
       <AppButton>
         <span class="hidden sm:inline">Subscribe</span>

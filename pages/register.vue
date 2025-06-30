@@ -4,9 +4,9 @@ definePageMeta({ layout: 'auth' })
 
 <template>
   <form class="flex flex-col gap-y-4 sm:gap-y-6">
-    <AppFormField id="email" type="email">Email</AppFormField>
-    <AppFormField id="password" type="password">Password</AppFormField>
-    <AppFormField id="passwordConfirmation" type="password">
+    <AppFormField type="email" id="email">Email</AppFormField>
+    <AppFormField type="password" id="password">Password</AppFormField>
+    <AppFormField type="password" id="passwordConfirmation">
       Password Confirmation
     </AppFormField>
     <AppButton class="mt-2 sm:mt-1">Sign Up</AppButton>

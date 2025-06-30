@@ -4,7 +4,6 @@ const playlist = usePlaylistsStore().getPlaylistBySlug(
 )
 </script>
 
-
 <template>
   <section class="flex flex-col gap-y-8 pt-24 pb-12 sm:py-16 md:gap-y-12">
     <AppSectionHeader

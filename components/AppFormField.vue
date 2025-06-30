@@ -5,7 +5,7 @@ defineProps<{ id: string }>()
 
 <template>
   <div class="flex flex-col gap-y-1">
-    <AppLabel v-if="$slots.default" :for="id">Add commentMore actions
+    <AppLabel v-if="$slots.default" :for="id">
       <slot />
     </AppLabel>
     <AppInput :id="id" v-bind="$attrs" />
